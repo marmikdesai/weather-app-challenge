@@ -1,0 +1,19 @@
+.Wrapper {
+  text-decoration: none;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  ul {
+    &:after {
+      content: "";
+      clear: both;
+      display: block;
+    }
+
+    li {
+      float: left;
+      list-style: none;
+      margin: 0 10px;
+    }
+  }
+}
